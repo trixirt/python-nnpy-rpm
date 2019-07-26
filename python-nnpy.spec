@@ -8,7 +8,7 @@ cffi-based Python bindings for nanomsg}
 Name:           python-%{pypi_name}
 Summary:        cffi-based Python bindings for nanomsg
 Version:        1.4.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        MIT
 
 URL:            https://github.com/nanomsg/nnpy
@@ -57,5 +57,8 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Fri Jul 26 2019 Fedora Release Engineering <releng@fedoraproject.org> - 1.4.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_31_Mass_Rebuild
+
 * Mon Feb 18 2019 Troy Dawson <tdawson@redhat.com> - 1.4.2-1
 - Initial package
