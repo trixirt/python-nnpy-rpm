@@ -8,7 +8,7 @@ cffi-based Python bindings for nanomsg}
 Name:           python-%{pypi_name}
 Summary:        cffi-based Python bindings for nanomsg
 Version:        1.4.2
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        MIT
 
 URL:            https://github.com/nanomsg/nnpy
@@ -57,6 +57,9 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Thu Oct 03 2019 Miro Hrončok <mhroncok@redhat.com> - 1.4.2-4
+- Rebuilt for Python 3.8.0rc1 (#1748018)
+
 * Mon Aug 19 2019 Miro Hrončok <mhroncok@redhat.com> - 1.4.2-3
 - Rebuilt for Python 3.8
 
