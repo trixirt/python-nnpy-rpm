@@ -1,14 +1,14 @@
 %global pypi_name nnpy
 
 %global common_description %{expand:
-cffi-based Python bindings for nanomsg}
+A cffi-based Python bindings for nanomsg}
 
 %{?python_enable_dependency_generator}
 
 Name:           python-%{pypi_name}
-Summary:        cffi-based Python bindings for nanomsg
+Summary:        A cffi-based Python bindings for nanomsg
 Version:        1.4.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 License:        MIT
 
 URL:            https://github.com/nanomsg/nnpy
@@ -57,6 +57,10 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Wed Dec 8 2021 Tom Rix <trix@redhat.com> - 1.4.2-8
+- Unretire
+- Cleanup rpmlint warnings
+
 * Wed Jul 29 2020 Fedora Release Engineering <releng@fedoraproject.org> - 1.4.2-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
 
